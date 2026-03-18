@@ -1,0 +1,131 @@
+You are building a Python web scraper using requests and BeautifulSoup.
+
+Project goal:
+Create a scraper that collects review-based college profile data from Niche for the 8 Ivy League schools:
+- Brown University
+- Columbia University
+- Cornell University
+- Dartmouth College
+- Harvard University
+- Princeton University
+- University of Pennsylvania
+- Yale University
+
+The scraper should gather, for each school:
+1. School name
+2. Niche school URL
+3. The "What Students Say" AI summary review text, if present
+4. A specified number of individual reviews
+5. For each individual review:
+   - review text
+   - star rating, if available
+   - review date, if available
+   - reviewer type / metadata, if available
+6. Total number of reviews, if available
+7. Any visible star breakdown / rating distribution, if available
+
+Important scraping requirement:
+- Use the 15 most recent reviews for each school
+- Do not do stratified sampling
+- Prefer recency ordering exactly as shown on the site
+- If fewer than 15 reviews are available, store all available reviews
+
+Technical requirements:
+- Use Python
+- Use requests for HTTP requests
+- Use BeautifulSoup (bs4) for HTML parsing
+- Do NOT use Selenium, Playwright, Scrapy, or browser automation unless absolutely necessary
+- Start with a purely static scraper implementation
+- Structure the code so selectors can be easily updated if the site changes
+- Add clear comments throughout the code
+- Write modular, readable code
+
+Expected code structure:
+- One main scraper file, such as `scrape_niche.py`
+- Use helper functions like:
+  - `fetch_html(url)`
+  - `parse_school_page(html)`
+  - `parse_reviews_page(html)`
+  - `extract_ai_summary(soup)`
+  - `extract_recent_reviews(soup, limit=15)`
+  - `save_results(data, filepath)`
+- Use a main driver that loops through the 8 Ivy League schools
+
+Data storage requirements:
+- Save output in structured JSON
+- Prefer one JSON object per school
+- Example top-level schema:
+
+{
+  "school_name": "...",
+  "school_url": "...",
+  "ai_summary": "...",
+  "total_review_count": ...,
+  "rating_breakdown": {
+    "5": ...,
+    "4": ...,
+    "3": ...,
+    "2": ...,
+    "1": ...
+  },
+  "reviews": [
+    {
+      "text": "...",
+      "rating": ...,
+      "date": "...",
+      "reviewer_type": "..."
+    }
+  ]
+}
+
+Behavior requirements:
+- Be defensive about missing fields
+- Never crash if one field is absent
+- Return `None` or empty strings/lists where appropriate
+- Log which schools or fields failed to parse
+- Add polite request headers, including a browser-like User-Agent
+- Add a small delay between requests
+- Avoid aggressive request volume
+
+Parsing requirements:
+- First inspect the school page HTML for:
+  - AI summary block
+  - total review count
+  - visible rating information
+  - link to the reviews page
+- Then inspect the reviews page HTML for:
+  - the review cards/items
+  - date ordering
+  - the 15 most recent reviews
+- Extract only visible page content from the HTML response
+- Do not rely on undocumented APIs unless clearly necessary
+- Prefer robust selectors over brittle ones
+- If a selector is uncertain, isolate it in one helper so it is easy to fix later
+
+Output quality:
+- Clean whitespace from extracted text
+- Preserve meaningful paragraph text
+- Deduplicate reviews if duplicates appear
+- Keep reviews in most-recent-first order
+- Store raw text exactly enough for later NLP/retrieval use
+
+Coding style:
+- Keep functions short and single-purpose
+- Use descriptive variable names
+- Use type hints where helpful
+- Use `if __name__ == "__main__":`
+- Print concise progress logs
+
+Deliverables:
+1. Working Python scraper
+2. JSON output file for all 8 Ivy League schools
+3. Easy-to-edit list of school URLs at the top of the script
+4. Clear notes on which selectors may need adjustment if Niche changes its markup
+
+When generating code:
+- Prioritize correctness, readability, and maintainability
+- Assume the user wants code they can run locally with minimal edits
+- Include imports
+- Include error handling
+- Include comments explaining each stage
+- Do not overengineer the project

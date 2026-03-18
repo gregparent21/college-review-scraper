@@ -1,4 +1,18 @@
-SCHOOLS = [
+from typing import Dict, List
+
+
+def get_school_list() -> List[Dict[str, str]]:
+    """
+    Central definition of all schools to scrape.
+
+    Each entry must have:
+    - name: human-readable school name
+    - url: Niche college URL
+
+    You can freely extend or modify this list.
+    """
+    
+    return [
     {
         "name": "Abilene Christian University",
         "url": "https://www.niche.com/colleges/abilene-christian-university/"

@@ -9,6 +9,8 @@ from typing import Any, Dict, List, Optional
 import requests
 from bs4 import BeautifulSoup, Tag
 
+from school_list import get_school_list
+
 
 BASE_HEADERS = {
     "User-Agent": (
@@ -393,43 +395,12 @@ def save_results(data: List[SchoolData], filepath: str) -> None:
 
 def build_school_list() -> List[Dict[str, str]]:
     """
-    Central definition of the Ivy League schools and their Niche URLs.
-    Easy to edit if additional schools are needed.
+    Wrapper around the shared school list in `school_list.py`.
+
+    Edit `get_school_list()` in `school_list.py` to change which
+    schools are scraped.
     """
-    return [
-        {
-            "name": "Brown University",
-            "url": "https://www.niche.com/colleges/brown-university/",
-        },
-        {
-            "name": "Columbia University",
-            "url": "https://www.niche.com/colleges/columbia-university/",
-        },
-        {
-            "name": "Cornell University",
-            "url": "https://www.niche.com/colleges/cornell-university/",
-        },
-        {
-            "name": "Dartmouth College",
-            "url": "https://www.niche.com/colleges/dartmouth-college/",
-        },
-        {
-            "name": "Harvard University",
-            "url": "https://www.niche.com/colleges/harvard-university/",
-        },
-        {
-            "name": "Princeton University",
-            "url": "https://www.niche.com/colleges/princeton-university/",
-        },
-        {
-            "name": "University of Pennsylvania",
-            "url": "https://www.niche.com/colleges/university-of-pennsylvania/",
-        },
-        {
-            "name": "Yale University",
-            "url": "https://www.niche.com/colleges/yale-university/",
-        },
-    ]
+    return get_school_list()
 
 
 def scrape_school(session: requests.Session, name: str, url: str, review_limit: int = 15) -> Optional[SchoolData]:
