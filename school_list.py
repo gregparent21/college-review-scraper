@@ -103,7 +103,7 @@ def get_school_list() -> List[Dict[str, str]]:
     },
     {
         "name": "Bethel University (MN)",
-        "url": "https://www.niche.com/colleges/bethel-university-mn/"
+        "url": "https://www.niche.com/colleges/bethel-university-minnesota/"
     },
     {
         "name": "Binghamton University--SUNY",
@@ -155,7 +155,7 @@ def get_school_list() -> List[Dict[str, str]]:
     },
     {
         "name": "CUNY--City College",
-        "url": "https://www.niche.com/colleges/cuny-city-college/"
+        "url": "https://www.niche.com/colleges/cuny-city-college-of-new-york/"
     },
     {
         "name": "California Institute of Technology",
