@@ -9,10 +9,57 @@ Python scraper for review-based college profile data from Niche, with both JSON 
 
 ### Files
 
-- `scrape_niche.py` – scrapes the 8 Ivy League schools into a single JSON file.
-- `scrape_niche_sqlite.py` – scrapes schools into a SQLite database (`niche_reviews.sqlite`).
-- `niche_ivy_reviews.json` – example JSON output for the Ivy League (optional, can be regenerated).
+- `scrape_niche.py` – scrapes schools into a single JSON file (supports multiple school lists).
+- `scrape_niche_sqlite.py` – scrapes schools into a SQLite database (supports multiple school lists).
+- `school_list.py` – primary list of ~436 schools to scrape.
+- `liberal_arts_colleges_list.py` – list of ~201 U.S. News National Liberal Arts Colleges.
+- `niche_ivy_reviews.json` – example JSON output (optional, can be regenerated).
 - `requirements.txt` – Python dependencies.
+
+### Available School Lists
+
+Two school lists are available, and you can easily add more:
+
+1. **`schools`** (default) – ~436 schools from `school_list.py`
+2. **`liberal-arts`** – ~201 U.S. News National Liberal Arts Colleges from `liberal_arts_colleges_list.py`
+
+Each list file exports a `get_school_list()` function that returns a list of `{"name": "...", "url": "..."}` entries.
+
+### Working with Different School Lists
+
+All scraping commands support the `--school-list` parameter to choose which list to use:
+
+```bash
+# Default (primary schools list)
+python scrape_niche.py
+python scrape_niche_sqlite.py --mode seed-schools --db niche_reviews.sqlite
+
+# Liberal arts colleges
+python scrape_niche.py --school-list liberal-arts
+python scrape_niche_sqlite.py --mode seed-schools --db liberal_arts.sqlite --school-list liberal-arts
+```
+
+#### Creating New School Lists
+
+To add a new school list:
+
+1. Create a new Python file (e.g., `my_schools_list.py`)
+2. Define a `get_school_list()` function that returns a list of `{"name": "...", "url": "..."}` dicts
+3. Import it in `scrape_niche.py` and add a wrapper function (e.g., `build_my_schools_list()`)
+4. Update `scrape_niche_sqlite.py`'s `get_school_list_for_mode()` function to handle the new list
+5. Add a choice to the `--school-list` argument in both scripts
+
+#### Recommended Database Strategy
+
+Keep separate databases for different school lists to avoid mixing data:
+
+```bash
+# Original schools list
+python scrape_niche_sqlite.py --mode seed-schools --db niche_reviews.sqlite
+
+# Liberal arts colleges
+python scrape_niche_sqlite.py --mode seed-schools --db liberal_arts.sqlite --school-list liberal-arts
+```
 
 ### School list (where to add schools)
 
@@ -122,4 +169,3 @@ Useful when network access is restricted or to fine‑tune selectors.
 - The scraper uses polite request headers and a small delay between requests, but you should still avoid hammering Niche.
 - HTML structure can change; most selectors are isolated in helper functions so you can adjust them in one place if needed.
 - For large school lists, prefer the SQLite workflow to avoid re‑scraping everything from scratch on each run.
-

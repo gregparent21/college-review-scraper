@@ -17,6 +17,7 @@ from scrape_niche import (  # type: ignore
     SchoolData,
     Review,
     build_school_list,
+    build_liberal_arts_school_list,
     extract_ai_summary,
     extract_rating_breakdown_from_reviews_page,
     extract_recent_reviews,
@@ -208,6 +209,22 @@ def seed_schools(conn: sqlite3.Connection, schools: List[Dict[str, str]]) -> Non
     conn.commit()
 
 
+def get_school_list_for_mode(school_list_mode: str = "schools") -> List[Dict[str, str]]:
+    """
+    Get the appropriate school list based on the selected mode.
+    
+    Args:
+        school_list_mode: Either "schools" (default) or "liberal-arts"
+    
+    Returns:
+        List of schools to scrape
+    """
+    if school_list_mode == "liberal-arts":
+        return build_liberal_arts_school_list()
+    else:
+        return build_school_list()
+
+
 def get_schools_missing_reviews(conn: sqlite3.Connection, *, limit: Optional[int] = None) -> List[sqlite3.Row]:
     """
     Return schools that currently have no reviews in the reviews table.
@@ -308,6 +325,12 @@ if __name__ == "__main__":
         help="Operation mode: seed only schools or backfill missing reviews.",
     )
     parser.add_argument(
+        "--school-list",
+        choices=["schools", "liberal-arts"],
+        default="schools",
+        help="Which school list to use: 'schools' (default) or 'liberal-arts'.",
+    )
+    parser.add_argument(
         "--batch-size",
         type=int,
         default=None,
@@ -330,8 +353,9 @@ if __name__ == "__main__":
     elif args.mode == "seed-schools":
         with sqlite_conn(args.db) as conn:
             init_db(conn)
-            seed_schools(conn, build_school_list())
-        logging.info("Seeded/updated %d schools", len(build_school_list()))
+            school_list = get_school_list_for_mode(args.school_list)
+            seed_schools(conn, school_list)
+        logging.info("Seeded/updated %d schools from %s list", len(get_school_list_for_mode(args.school_list)), args.school_list)
     else:  # backfill-reviews
         backfill_reviews(db_path=args.db, review_limit=args.limit, batch_size=args.batch_size)
 

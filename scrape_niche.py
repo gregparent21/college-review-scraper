@@ -10,6 +10,7 @@ import requests
 from bs4 import BeautifulSoup, Tag
 
 from school_list import get_school_list
+from liberal_arts_colleges_list import get_school_list as get_liberal_arts_school_list
 
 
 BASE_HEADERS = {
@@ -401,6 +402,16 @@ def build_school_list() -> List[Dict[str, str]]:
     schools are scraped.
     """
     return get_school_list()
+
+
+def build_liberal_arts_school_list() -> List[Dict[str, str]]:
+    """
+    Wrapper around the liberal arts colleges list in `liberal_arts_colleges_list.py`.
+
+    Edit `get_school_list()` in `liberal_arts_colleges_list.py` to change which
+    liberal arts colleges are scraped.
+    """
+    return get_liberal_arts_school_list()
 
 
 def scrape_school(session: requests.Session, name: str, url: str, review_limit: int = 15) -> Optional[SchoolData]:
