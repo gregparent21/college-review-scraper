@@ -38,7 +38,11 @@ CREATE TABLE IF NOT EXISTS schools (
   ai_summary TEXT,
   total_review_count INTEGER,
   rating_breakdown_json TEXT,
-  last_scraped_at TEXT
+  last_scraped_at TEXT,
+  city TEXT,
+  state TEXT,
+  latitude REAL,
+  longitude REAL
 );
 
 CREATE TABLE IF NOT EXISTS reviews (
@@ -277,7 +281,7 @@ def backfill_reviews(db_path: str, review_limit: int = 15, batch_size: Optional[
 
 def export_schools_to_json(conn: sqlite3.Connection) -> List[Dict[str, Any]]:
     schools = conn.execute(
-        "SELECT id, school_name, school_url, ai_summary, total_review_count, rating_breakdown_json FROM schools ORDER BY school_name"
+        "SELECT id, school_name, school_url, ai_summary, total_review_count, rating_breakdown_json, latitude, longitude FROM schools ORDER BY school_name"
     ).fetchall()
     out: List[Dict[str, Any]] = []
     for s in schools:
@@ -291,24 +295,28 @@ def export_schools_to_json(conn: sqlite3.Connection) -> List[Dict[str, Any]]:
             """,
             (school_id,),
         ).fetchall()
-        out.append(
-            {
-                "school_name": s["school_name"],
-                "school_url": s["school_url"],
-                "ai_summary": s["ai_summary"],
-                "total_review_count": s["total_review_count"],
-                "rating_breakdown": json.loads(s["rating_breakdown_json"]) if s["rating_breakdown_json"] else {str(i): None for i in range(1, 6)},
-                "reviews": [
-                    {
-                        "text": r["text"],
-                        "rating": r["rating"],
-                        "date": r["date"],
-                        "reviewer_type": r["reviewer_type"],
-                    }
-                    for r in reviews_rows
-                ],
-            }
-        )
+        school_dict = {
+            "school_name": s["school_name"],
+            "school_url": s["school_url"],
+            "ai_summary": s["ai_summary"],
+            "total_review_count": s["total_review_count"],
+            "rating_breakdown": json.loads(s["rating_breakdown_json"]) if s["rating_breakdown_json"] else {str(i): None for i in range(1, 6)},
+            "reviews": [
+                {
+                    "text": r["text"],
+                    "rating": r["rating"],
+                    "date": r["date"],
+                    "reviewer_type": r["reviewer_type"],
+                }
+                for r in reviews_rows
+            ],
+        }
+        # Add latitude and longitude if available
+        if s["latitude"] is not None:
+            school_dict["latitude"] = s["latitude"]
+        if s["longitude"] is not None:
+            school_dict["longitude"] = s["longitude"]
+        out.append(school_dict)
     return out
 
 

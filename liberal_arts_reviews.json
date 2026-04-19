@@ -102,7 +102,9 @@
         "date": "2025-05-19",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 33.7685056,
+    "longitude": -84.29453459999999
   },
   {
     "school_name": "Allegheny College",
@@ -207,7 +209,9 @@
         "date": "2025-11-12",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 41.6491394,
+    "longitude": -80.1477534
   },
   {
     "school_name": "Amherst College",
@@ -312,7 +316,9 @@
         "date": "2024-10-05",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 42.3709104,
+    "longitude": -72.5170028
   },
   {
     "school_name": "Augustana College",
@@ -417,7 +423,9 @@
         "date": "2025-02-24",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 41.5030042,
+    "longitude": -90.5513921
   },
   {
     "school_name": "Austin College",
@@ -522,7 +530,9 @@
         "date": "2024-12-09",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 33.6479423,
+    "longitude": -96.5954308
   },
   {
     "school_name": "Bard College",
@@ -627,7 +637,9 @@
         "date": "2025-06-04",
         "reviewer_type": "Graduate Student"
       }
-    ]
+    ],
+    "latitude": 42.0230728,
+    "longitude": -73.909314
   },
   {
     "school_name": "Barnard College",
@@ -732,7 +744,9 @@
         "date": "2024-11-13",
         "reviewer_type": "Other"
       }
-    ]
+    ],
+    "latitude": 40.8095133,
+    "longitude": -73.96339689999999
   },
   {
     "school_name": "Bates College",
@@ -837,7 +851,9 @@
         "date": "2024-06-17",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 44.1057216,
+    "longitude": -70.2021865
   },
   {
     "school_name": "Beloit College",
@@ -942,7 +958,9 @@
         "date": "2023-12-19",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 42.5030333,
+    "longitude": -89.0309048
   },
   {
     "school_name": "Bennington College",
@@ -1047,7 +1065,9 @@
         "date": "2025-06-10",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 42.9203078,
+    "longitude": -73.2359361
   },
   {
     "school_name": "Berea College",
@@ -1152,7 +1172,9 @@
         "date": "2025-01-14",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 37.570585,
+    "longitude": -84.288969
   },
   {
     "school_name": "Bowdoin College",
@@ -1257,7 +1279,9 @@
         "date": "2024-07-30",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 43.9076929,
+    "longitude": -69.9639971
   },
   {
     "school_name": "Bryn Mawr College",
@@ -1362,7 +1386,9 @@
         "date": "2025-01-28",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 40.0278802,
+    "longitude": -75.3144595
   },
   {
     "school_name": "Bucknell University",
@@ -1467,7 +1493,9 @@
         "date": "2025-02-13",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 40.9547722,
+    "longitude": -76.88507589999999
   },
   {
     "school_name": "Carleton College",
@@ -1572,7 +1600,9 @@
         "date": "2024-11-14",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 44.4613633,
+    "longitude": -93.1559742
   },
   {
     "school_name": "Centre College",
@@ -1677,7 +1707,9 @@
         "date": "2024-09-24",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 37.6457165,
+    "longitude": -84.779061
   },
   {
     "school_name": "Claremont McKenna College",
@@ -1782,7 +1814,9 @@
         "date": "2024-07-21",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 34.1006868,
+    "longitude": -117.7065073
   },
   {
     "school_name": "Colby College",
@@ -1887,7 +1921,9 @@
         "date": "2025-07-29",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 44.5638691,
+    "longitude": -69.6626362
   },
   {
     "school_name": "Colgate University",
@@ -1992,7 +2028,9 @@
         "date": "2024-09-29",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 42.8155894,
+    "longitude": -75.5407355
   },
   {
     "school_name": "College of St. Benedict",
@@ -2097,7 +2135,9 @@
         "date": "2025-09-12",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 45.560123,
+    "longitude": -94.3217652
   },
   {
     "school_name": "College of Wooster",
@@ -2202,7 +2242,9 @@
         "date": "2024-12-19",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 40.811716,
+    "longitude": -81.93079159999999
   },
   {
     "school_name": "College of the Holy Cross",
@@ -2307,7 +2349,9 @@
         "date": "2024-07-08",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 42.2392391,
+    "longitude": -71.8079608
   },
   {
     "school_name": "Colorado College",
@@ -2412,7 +2456,9 @@
         "date": "2024-10-23",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 38.8491957,
+    "longitude": -104.8254254
   },
   {
     "school_name": "Connecticut College",
@@ -2517,7 +2563,9 @@
         "date": "2025-01-29",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 41.3797568,
+    "longitude": -72.10434289999999
   },
   {
     "school_name": "Cornell College",
@@ -2622,7 +2670,9 @@
         "date": "2024-06-20",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 42.4534492,
+    "longitude": -76.4735027
   },
   {
     "school_name": "Davidson College",
@@ -2727,7 +2777,9 @@
         "date": "2025-07-07",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 35.5015528,
+    "longitude": -80.8423248
   },
   {
     "school_name": "DePauw University",
@@ -2832,7 +2884,9 @@
         "date": "2025-08-07",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 39.63942520000001,
+    "longitude": -86.8634933
   },
   {
     "school_name": "Denison University",
@@ -2937,7 +2991,9 @@
         "date": "2025-02-17",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 40.0735236,
+    "longitude": -82.52272730000001
   },
   {
     "school_name": "Dickinson College",
@@ -3042,7 +3098,9 @@
         "date": "2025-08-24",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 40.2027461,
+    "longitude": -77.2008334
   },
   {
     "school_name": "Drew University",
@@ -3147,7 +3205,9 @@
         "date": "2025-07-07",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 40.7602397,
+    "longitude": -74.4266389
   },
   {
     "school_name": "Earlham College",
@@ -3252,7 +3312,9 @@
         "date": "2025-12-09",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 39.823941,
+    "longitude": -84.913241
   },
   {
     "school_name": "Emmanuel College",
@@ -3357,7 +3419,9 @@
         "date": "2025-09-10",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 42.340944,
+    "longitude": -71.102685
   },
   {
     "school_name": "Franklin and Marshall College",
@@ -3462,7 +3526,9 @@
         "date": "2025-07-14",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 40.0480017,
+    "longitude": -76.319749
   },
   {
     "school_name": "Furman University",
@@ -3567,7 +3633,9 @@
         "date": "2025-03-31",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 34.9274688,
+    "longitude": -82.4400666
   },
   {
     "school_name": "Gettysburg College",
@@ -3672,7 +3740,9 @@
         "date": "2024-08-01",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 39.83567439999999,
+    "longitude": -77.2366796
   },
   {
     "school_name": "Grinnell College",
@@ -3777,7 +3847,9 @@
         "date": "2024-09-17",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 41.749223,
+    "longitude": -92.7201302
   },
   {
     "school_name": "Gustavus Adolphus College",
@@ -3882,7 +3954,9 @@
         "date": "2025-01-13",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 44.323803,
+    "longitude": -93.9757881
   },
   {
     "school_name": "Hamilton College",
@@ -3987,7 +4061,9 @@
         "date": "2025-05-28",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 43.0527984,
+    "longitude": -75.4059719
   },
   {
     "school_name": "Hampden-Sydney College",
@@ -4092,7 +4168,9 @@
         "date": "2024-05-08",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 37.2409769,
+    "longitude": -78.45984159999999
   },
   {
     "school_name": "Hanover College",
@@ -4197,7 +4275,9 @@
         "date": "2025-06-05",
         "reviewer_type": "Graduate Student"
       }
-    ]
+    ],
+    "latitude": 38.7137524,
+    "longitude": -85.46023509999999
   },
   {
     "school_name": "Harvey Mudd College",
@@ -4302,7 +4382,9 @@
         "date": "2024-02-27",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 34.1060906,
+    "longitude": -117.7086431
   },
   {
     "school_name": "Haverford College",
@@ -4407,7 +4489,9 @@
         "date": "2024-12-13",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 40.00744230000001,
+    "longitude": -75.3051299
   },
   {
     "school_name": "Hillsdale College",
@@ -4512,7 +4596,9 @@
         "date": "2024-05-08",
         "reviewer_type": "Other"
       }
-    ]
+    ],
+    "latitude": 41.9325757,
+    "longitude": -84.6306714
   },
   {
     "school_name": "Hobart and William Smith Colleges",
@@ -4545,7 +4631,9 @@
         "date": "2025-12-09",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 42.8581453,
+    "longitude": -76.9866497
   },
   {
     "school_name": "Hope College",
@@ -4650,7 +4738,9 @@
         "date": "2025-07-07",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 42.788199,
+    "longitude": -86.0970868
   },
   {
     "school_name": "Illinois College",
@@ -4755,7 +4845,9 @@
         "date": "2025-02-18",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 39.7321849,
+    "longitude": -90.2469327
   },
   {
     "school_name": "Ithaca College",
@@ -4860,7 +4952,9 @@
         "date": "2025-07-06",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 42.4199229,
+    "longitude": -76.4969344
   },
   {
     "school_name": "Juniata College",
@@ -4965,7 +5059,9 @@
         "date": "2024-09-30",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 40.5001397,
+    "longitude": -78.01589779999999
   },
   {
     "school_name": "Kalamazoo College",
@@ -5070,7 +5166,9 @@
         "date": "2024-11-05",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 42.290035,
+    "longitude": -85.598145
   },
   {
     "school_name": "Kenyon College",
@@ -5175,7 +5273,9 @@
         "date": "2025-03-04",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 40.376152,
+    "longitude": -82.39579330000001
   },
   {
     "school_name": "Knox College",
@@ -5280,7 +5380,9 @@
         "date": "2025-01-06",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 40.9416992,
+    "longitude": -90.3721309
   },
   {
     "school_name": "Lafayette College",
@@ -5385,7 +5487,9 @@
         "date": "2025-03-03",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 40.6984713,
+    "longitude": -75.2101079
   },
   {
     "school_name": "Lake Forest College",
@@ -5490,7 +5594,9 @@
         "date": "2025-02-26",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 42.2503397,
+    "longitude": -87.8286109
   },
   {
     "school_name": "Lawrence University",
@@ -5595,7 +5701,9 @@
         "date": "2024-09-12",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 44.2610186,
+    "longitude": -88.3985053
   },
   {
     "school_name": "Lewis & Clark College",
@@ -5700,7 +5808,9 @@
         "date": "2024-12-12",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 45.450223,
+    "longitude": -122.670186
   },
   {
     "school_name": "Linfield College",
@@ -5733,7 +5843,9 @@
         "date": "2026-01-28",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 45.1976558,
+    "longitude": -123.199904
   },
   {
     "school_name": "Luther College",
@@ -5838,7 +5950,9 @@
         "date": "2024-05-13",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 43.3147914,
+    "longitude": -91.8052049
   },
   {
     "school_name": "Lycoming College",
@@ -5943,7 +6057,9 @@
         "date": "2025-03-04",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 41.2446263,
+    "longitude": -76.9982694
   },
   {
     "school_name": "Macalester College",
@@ -6048,7 +6164,9 @@
         "date": "2025-10-09",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 44.9379079,
+    "longitude": -93.16848039999999
   },
   {
     "school_name": "Marymount Manhattan College",
@@ -6153,7 +6271,9 @@
         "date": "2024-10-21",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 40.76874189999999,
+    "longitude": -73.9597198
   },
   {
     "school_name": "Massachusetts College of Liberal Arts",
@@ -6258,7 +6378,9 @@
         "date": "2025-05-06",
         "reviewer_type": "Graduate Student"
       }
-    ]
+    ],
+    "latitude": 42.691554,
+    "longitude": -73.1033372
   },
   {
     "school_name": "Meredith College",
@@ -6363,7 +6485,9 @@
         "date": "2025-05-16",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 35.798208,
+    "longitude": -78.6886419
   },
   {
     "school_name": "Middlebury College",
@@ -6468,7 +6592,9 @@
         "date": "2024-10-27",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 44.0081076,
+    "longitude": -73.1760412
   },
   {
     "school_name": "Morehouse College",
@@ -6573,7 +6699,9 @@
         "date": "2025-06-10",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 33.7473412,
+    "longitude": -84.415528
   },
   {
     "school_name": "Mount Holyoke College",
@@ -6678,7 +6806,9 @@
         "date": "2025-06-19",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 42.255425,
+    "longitude": -72.5728843
   },
   {
     "school_name": "Muhlenberg College",
@@ -6783,7 +6913,9 @@
         "date": "2025-01-14",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 40.5981933,
+    "longitude": -75.5081076
   },
   {
     "school_name": "Oberlin College and Conservatory",
@@ -6888,7 +7020,9 @@
         "date": "2025-03-16",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 41.2958696,
+    "longitude": -82.22108899999999
   },
   {
     "school_name": "Occidental College",
@@ -6993,7 +7127,9 @@
         "date": "2024-07-29",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 34.12736,
+    "longitude": -118.2104777
   },
   {
     "school_name": "Ohio Wesleyan University",
@@ -7098,7 +7234,9 @@
         "date": "2024-04-16",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 40.2950337,
+    "longitude": -83.0652348
   },
   {
     "school_name": "Patrick Henry College",
@@ -7203,7 +7341,9 @@
         "date": "2024-12-05",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 39.1386214,
+    "longitude": -77.6909137
   },
   {
     "school_name": "Pitzer College",
@@ -7308,7 +7448,9 @@
         "date": "2025-05-21",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 34.1042832,
+    "longitude": -117.7050738
   },
   {
     "school_name": "Pomona College",
@@ -7413,7 +7555,9 @@
         "date": "2024-10-31",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 34.0977461,
+    "longitude": -117.711806
   },
   {
     "school_name": "Principia College",
@@ -7518,7 +7662,9 @@
         "date": "2022-05-26",
         "reviewer_type": "Works Here"
       }
-    ]
+    ],
+    "latitude": 38.9536001,
+    "longitude": -90.3478722
   },
   {
     "school_name": "Randolph-Macon College",
@@ -7623,7 +7769,9 @@
         "date": "2025-04-04",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 37.7631796,
+    "longitude": -77.4773666
   },
   {
     "school_name": "Reed College",
@@ -7728,7 +7876,9 @@
         "date": "2024-09-24",
         "reviewer_type": "Other"
       }
-    ]
+    ],
+    "latitude": 45.4810848,
+    "longitude": -122.6308086
   },
   {
     "school_name": "Rhodes College",
@@ -7833,7 +7983,9 @@
         "date": "2025-11-12",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 35.1555409,
+    "longitude": -89.9893293
   },
   {
     "school_name": "SUNY Purchase College",
@@ -7938,7 +8090,9 @@
         "date": "2025-07-30",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 41.0470553,
+    "longitude": -73.700419
   },
   {
     "school_name": "Saint Anselm College",
@@ -8043,7 +8197,9 @@
         "date": "2025-06-03",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 42.9846853,
+    "longitude": -71.5060271
   },
   {
     "school_name": "Saint Mary's College",
@@ -8076,7 +8232,9 @@
         "date": "2026-03-12",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 38.1885119,
+    "longitude": -76.42627499999999
   },
   {
     "school_name": "Saint Michael's College",
@@ -8181,7 +8339,9 @@
         "date": "2024-06-26",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 44.49598,
+    "longitude": -73.163743
   },
   {
     "school_name": "Saint Vincent College",
@@ -8214,7 +8374,9 @@
         "date": "2025-10-15",
         "reviewer_type": "Other"
       }
-    ]
+    ],
+    "latitude": 40.2914024,
+    "longitude": -79.3998642
   },
   {
     "school_name": "Sarah Lawrence College",
@@ -8319,7 +8481,9 @@
         "date": "2025-01-27",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 40.93459,
+    "longitude": -73.8455821
   },
   {
     "school_name": "Scripps College",
@@ -8424,7 +8588,9 @@
         "date": "2024-04-02",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 34.1039624,
+    "longitude": -117.7101787
   },
   {
     "school_name": "Sewanee: The University of the South",
@@ -8529,7 +8695,9 @@
         "date": "2025-09-10",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 35.2050343,
+    "longitude": -85.9176238
   },
   {
     "school_name": "Skidmore College",
@@ -8634,7 +8802,9 @@
         "date": "2025-08-29",
         "reviewer_type": "Other"
       }
-    ]
+    ],
+    "latitude": 43.0959241,
+    "longitude": -73.7852383
   },
   {
     "school_name": "Smith College",
@@ -8739,7 +8909,9 @@
         "date": "2025-03-25",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 42.3162992,
+    "longitude": -72.6403095
   },
   {
     "school_name": "Soka University of America",
@@ -8844,7 +9016,9 @@
         "date": "2022-02-19",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 33.5578916,
+    "longitude": -117.732131
   },
   {
     "school_name": "Southwestern University",
@@ -8949,7 +9123,9 @@
         "date": "2025-03-13",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 30.6369218,
+    "longitude": -97.66285150000002
   },
   {
     "school_name": "Spelman College",
@@ -9054,7 +9230,9 @@
         "date": "2025-06-29",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 33.7451954,
+    "longitude": -84.4114376
   },
   {
     "school_name": "St. John's University",
@@ -9087,7 +9265,9 @@
         "date": "2026-01-07",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 40.7201737,
+    "longitude": -73.79789079999999
   },
   {
     "school_name": "St. Lawrence University",
@@ -9192,7 +9372,9 @@
         "date": "2025-12-03",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 44.5892119,
+    "longitude": -75.1608814
   },
   {
     "school_name": "St. Mary's College of Maryland",
@@ -9297,7 +9479,9 @@
         "date": "2025-05-10",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 38.1885119,
+    "longitude": -76.42627499999999
   },
   {
     "school_name": "St. Norbert College",
@@ -9402,7 +9586,9 @@
         "date": "2025-11-20",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 44.44438340000001,
+    "longitude": -88.0694257
   },
   {
     "school_name": "St. Olaf College",
@@ -9507,7 +9693,9 @@
         "date": "2025-02-01",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 44.4621325,
+    "longitude": -93.1840272
   },
   {
     "school_name": "Stonehill College",
@@ -9612,7 +9800,9 @@
         "date": "2025-09-17",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 42.059794,
+    "longitude": -71.0803573
   },
   {
     "school_name": "Susquehanna University",
@@ -9717,7 +9907,9 @@
         "date": "2025-06-11",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 40.7970002,
+    "longitude": -76.8775569
   },
   {
     "school_name": "Swarthmore College",
@@ -9822,7 +10014,9 @@
         "date": "2024-09-24",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 39.90383300000001,
+    "longitude": -75.3526567
   },
   {
     "school_name": "Thomas Aquinas College",
@@ -9927,7 +10121,9 @@
         "date": "2019-11-30",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 41.041757,
+    "longitude": -73.93584419999999
   },
   {
     "school_name": "Transylvania University",
@@ -10032,7 +10228,9 @@
         "date": "2023-08-30",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 38.0516801,
+    "longitude": -84.49334189999999
   },
   {
     "school_name": "Trinity College",
@@ -10065,7 +10263,9 @@
         "date": "2026-03-14",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 41.7477163,
+    "longitude": -72.6905038
   },
   {
     "school_name": "Trinity University",
@@ -10170,7 +10370,9 @@
         "date": "2025-08-31",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 29.4618769,
+    "longitude": -98.48333819999999
   },
   {
     "school_name": "Union College",
@@ -10203,7 +10405,9 @@
         "date": "2026-01-05",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 42.8179321,
+    "longitude": -73.9294347
   },
   {
     "school_name": "United States Air Force Academy",
@@ -10308,7 +10512,9 @@
         "date": "2023-10-01",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 38.9928377,
+    "longitude": -104.8582914
   },
   {
     "school_name": "United States Military Academy",
@@ -10413,7 +10619,9 @@
         "date": "2023-04-10",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 41.3969417,
+    "longitude": -73.97935729999999
   },
   {
     "school_name": "United States Naval Academy",
@@ -10518,7 +10726,9 @@
         "date": "2023-08-28",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 38.98206580000001,
+    "longitude": -76.4839405
   },
   {
     "school_name": "University of Minnesota Morris",
@@ -10623,7 +10833,9 @@
         "date": "2023-08-03",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 45.58903170000001,
+    "longitude": -95.8969661
   },
   {
     "school_name": "University of Puget Sound",
@@ -10728,7 +10940,9 @@
         "date": "2025-10-23",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 47.2617495,
+    "longitude": -122.4814442
   },
   {
     "school_name": "University of Richmond",
@@ -10833,7 +11047,9 @@
         "date": "2024-12-23",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 37.5758243,
+    "longitude": -77.5397192
   },
   {
     "school_name": "Ursinus College",
@@ -10938,7 +11154,9 @@
         "date": "2025-08-07",
         "reviewer_type": "Junior"
       }
-    ]
+    ],
+    "latitude": 40.19396769999999,
+    "longitude": -75.4563232
   },
   {
     "school_name": "Vassar College",
@@ -11043,7 +11261,9 @@
         "date": "2024-05-14",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 41.6868243,
+    "longitude": -73.895719
   },
   {
     "school_name": "Virginia Military Institute",
@@ -11148,7 +11368,9 @@
         "date": "2024-04-20",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 37.7909313,
+    "longitude": -79.4351978
   },
   {
     "school_name": "Virginia Wesleyan University",
@@ -11253,7 +11475,9 @@
         "date": "2024-10-09",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 36.8674624,
+    "longitude": -76.1866644
   },
   {
     "school_name": "Wabash College",
@@ -11358,7 +11582,9 @@
         "date": "2024-12-20",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 40.037693,
+    "longitude": -86.9065842
   },
   {
     "school_name": "Washington College",
@@ -11463,7 +11689,9 @@
         "date": "2025-02-05",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 39.21824,
+    "longitude": -76.0695767
   },
   {
     "school_name": "Washington and Jefferson College",
@@ -11568,7 +11796,9 @@
         "date": "2024-11-04",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 40.1706389,
+    "longitude": -80.24029689999999
   },
   {
     "school_name": "Washington and Lee University",
@@ -11673,7 +11903,9 @@
         "date": "2024-02-12",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 37.7898776,
+    "longitude": -79.4458935
   },
   {
     "school_name": "Wellesley College",
@@ -11778,7 +12010,9 @@
         "date": "2025-03-12",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 42.2935733,
+    "longitude": -71.3059277
   },
   {
     "school_name": "Wesleyan University",
@@ -11883,7 +12117,9 @@
         "date": "2025-06-28",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 41.5567587,
+    "longitude": -72.6568336
   },
   {
     "school_name": "Westminster College",
@@ -11988,7 +12224,9 @@
         "date": "2025-10-23",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 41.119859,
+    "longitude": -80.332286
   },
   {
     "school_name": "Westmont College",
@@ -12093,7 +12331,9 @@
         "date": "2025-01-15",
         "reviewer_type": "Alum"
       }
-    ]
+    ],
+    "latitude": 34.4477755,
+    "longitude": -119.6617118
   },
   {
     "school_name": "Wheaton College",
@@ -12198,7 +12438,9 @@
         "date": "2026-03-20",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 41.8695424,
+    "longitude": -88.0969325
   },
   {
     "school_name": "Whitman College",
@@ -12303,7 +12545,9 @@
         "date": "2024-12-31",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 46.0708191,
+    "longitude": -118.3295895
   },
   {
     "school_name": "Whittier College",
@@ -12408,7 +12652,9 @@
         "date": "2025-09-08",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 33.9780566,
+    "longitude": -118.0295766
   },
   {
     "school_name": "Willamette University",
@@ -12513,7 +12759,9 @@
         "date": "2025-02-09",
         "reviewer_type": "Freshman"
       }
-    ]
+    ],
+    "latitude": 44.9352335,
+    "longitude": -123.0307101
   },
   {
     "school_name": "Williams College",
@@ -12618,7 +12866,9 @@
         "date": "2024-04-14",
         "reviewer_type": "Sophomore"
       }
-    ]
+    ],
+    "latitude": 42.7128843,
+    "longitude": -73.20313949999999
   },
   {
     "school_name": "Wofford College",
@@ -12723,6 +12973,8 @@
         "date": "2024-10-24",
         "reviewer_type": "Senior"
       }
-    ]
+    ],
+    "latitude": 34.9590202,
+    "longitude": -81.9351358
   }
 ]
